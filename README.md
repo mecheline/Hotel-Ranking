@@ -25,8 +25,8 @@ Hotels Ranking is a simple, intuitive application built with Next.js, TypeScript
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/hotels-ranking.git
-   cd hotels-ranking
+   git clone https://github.com/mecheline/Hotel-Ranking.git
+   cd project folder
    ```
 
 2. Install dependencies:
