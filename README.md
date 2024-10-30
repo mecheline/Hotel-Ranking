@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hotels Ranking
 
-## Getting Started
+Hotels Ranking is a simple, intuitive application built with Next.js, TypeScript, and Material UI. It enables users to manage and categorize hotels with basic CRUD (Create, Read, Update, Delete) functionality. The application is responsive, user-friendly, and maintains data persistence using localStorage.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Hotel Management: Create, edit, view, and delete hotels
+- Category Management: Create, edit, view, and delete hotel categories
+- Filtering & Sorting: Filter hotels by category and sort by name, country, or category
+- Data Persistence: All data is stored in localStorage for persistence between sessions
+- Responsive Design: Fully responsive across mobile, tablet, and desktop devices
+- User-Friendly Interface: Clean and intuitive UI for easy hotel and category management
+- Form Validation: Ensures required fields are filled when creating or editing hotels and categories
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- TypeScript
+- Redux for state management
+- Material UI for UI components
+- localStorage for data persistence
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup Instructions
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```
+   git clone https://github.com/yourusername/hotels-ranking.git
+   cd hotels-ranking
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```
+   npm install --legacy-peer-deps
+   ```
 
-## Deploy on Vercel
+   or
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```
+   yarn install --legacy-peer-deps
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Run the development server:
+
+   ```
+   npm run dev
+   ```
+
+   or
+
+   ```
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Usage
+
+- **Managing Hotels**:
+
+  - Click on the "Hotels" tab to view, add, edit, or delete hotels
+  - Use the form at the top to add new hotels or edit existing ones
+  - Use the filter and sort options to organize the hotel list
+
+- **Managing Categories**:
+
+  - Click on the "Categories" tab to view, add, edit, or delete hotel categories
+  - Use the form at the top to add new categories or edit existing ones
+
+- **Data Persistence**:
+  - All changes are automatically saved to localStorage
+  - Data will persist between browser sessions
